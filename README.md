@@ -32,13 +32,7 @@ The static output lands in `dist/`.
 1. Push this folder to a GitHub repo.
 2. Import the repo in Vercel — it auto-detects Vite. Build command `npm run build`, output directory `dist`.
 
-**Netlify**
-1. Push to GitHub (or drag-and-drop the `dist/` folder after building).
-2. Build command `npm run build`, publish directory `dist`.
 
-**GitHub Pages**
-1. `npm run build`.
-2. Publish the contents of `dist/` to your `gh-pages` branch (e.g. via the `gh-pages` npm package or a GitHub Action), and set `base` in `vite.config.js` to `/<repo-name>/` if you're hosting at a project subpath instead of a custom domain.
 
 ## Project structure
 
